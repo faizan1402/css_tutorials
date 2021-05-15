@@ -1,0 +1,28 @@
+/*
+background-blend-mode so blend-mode attributes for multiple images to added the file css file
+  values:-
+  multiply,screen,overlay,darken,lighten,color-dodge,saturation,color,luminosity;
+->linear-gradient(blue,yellow,green);
+->gradient means blue,yellow and green color combination
+->screen-screen values for light background
+->lumosity->thin color is showing
+->overlay,darken
+
+*/
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+.box{
+	width:100vw;
+	height:100vh;
+	background:url(background_images/river.jpg),
+	url(background_images/green.jfif),linear-gradient(red,blue,yellow);
+
+	background-size: cover;
+	background-blend-mode:multiply;
+
+}

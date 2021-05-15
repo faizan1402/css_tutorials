@@ -1,0 +1,35 @@
+
+/*
+->local attribute content file image is background is stationary position but texting is moving
+#000 ->black color,#0f0->green color,#f00->red color
+->overflow: auto; this attribute inside frame text is showing or moving text
+*/
+
+body{
+	background-color:rgb(100,100,100);
+
+}
+
+.box{
+	width:800px;
+	height:500px;
+	margin:100px auto 0px auto;
+	border:10px solid #000;
+	color:#0f0;
+	overflow: auto;
+	background-image: url("background_images/01_image.jpg");
+	background-repeat:no-repeat;
+	background-attachment: local;
+	background-size: cover;
+}
+h1,p{
+	margin:25px 30px;
+	float:left;
+	font-family: tahome;
+}
+h1{
+	font-size: 70px;
+}
+p{
+	font-size:30px;
+}

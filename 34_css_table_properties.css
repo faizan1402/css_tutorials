@@ -1,0 +1,55 @@
+body{
+	font-family:tahoma;
+}
+table,th,td{
+	border:1px solid gray;
+}
+
+table{
+	 /*by default table separeted so table of all row and coloumn collapse
+       border-collapse:collapse ->means not any gap row and col
+       ->border-spacing:spacing->means depend on pixel to space create
+	   ->border-spacing:5px 10px (col 5px and row 10px space creating);
+
+	 */
+	 border-collapse: collapse;
+}
+td{
+	
+	/*
+	   vertical-align: top/bottom/meddle
+	   td means coloumn
+	*/
+	  vertical-align: top;
+
+}
+th,td{
+	padding: 5px 10px;/* top bottom 5px and left and right 10px*/
+
+}
+
+caption{
+	caption-side: top;
+	/*caption either top or bottom side connect */
+}
+table{
+	/*empty-cells means any coloumn of cell empty then 
+	empty-cells attribute uses*/
+	empty-cells: hide
+}
+table{
+	 width:300px;
+/* means words are very long but table layout fixed because given the attribute
+    table size fixed but text is large*/
+	 
+
+	 table-layout: fixed;
+}
+
+tr:hover{
+	background-color: gray;
+}
+tr:nth-child(even){
+	background-color: green;
+	color: white;
+}

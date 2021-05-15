@@ -1,0 +1,37 @@
+/*
+ Text Decoration
+->text-decoration-line
+->text-decoration-color
+->text-decoration-thickness
+
+->text-decoration-line;
+->underline;
+->overline;
+->line-through;
+->none;
+text-decoration-color:red;
+->#ff00cc;
+->rgb(255,255,0)
+->rgba(255,255,0,0.5);
+->text-decoration-style;
+   5 values uses
+   solid,dotted,dashed,double,wavy;
+->text-decoration-thickness;
+*/
+
+
+body{
+	text-align:center;
+	font-family: tahoma;
+	padding: 20px;
+}
+h1{
+	text-decoration-line:underline;
+	text-decoration-color: green;
+	text-decoration-style: dashed;
+    
+}
+
+	/*text-decoration-line:overline/underline/none/line-through;
+	text-decoration-thickness only suppot mozila firefox and safari
+}

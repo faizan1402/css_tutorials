@@ -1,0 +1,27 @@
+/*
+list-style-type: circle;
+list-style-type: square inside url(" ");
+list-style-image:url(" ");
+*/
+
+body{font-family:tahoma;}
+*{
+	margin:0;}
+p{
+	background-color:red;
+	color:#fff;
+	padding:2px 20px;
+	margin:10px 0px;
+}
+ul{
+	list-style-type: square inside url("background_images/arrow.png");
+    
+}
+
+ol{
+	list-style-type: upper-roman;
+
+	/*lower-roman/upper-roman/upper-alpha/lower alpha ...etc 
+    } */
+
+ }

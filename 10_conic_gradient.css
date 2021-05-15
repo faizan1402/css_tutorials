@@ -1,0 +1,26 @@
+body{
+	background-image: url(background_images/star.jpeg);
+}
+.box{
+	border:2px solid gray;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+	border-radius: 50%;
+}
+.b1{
+	/*
+	background-image: : conic-gradient(red,yellow,green);
+	*/
+	  background-image: conic-gradient(
+              from 60deg, red, yellow, green);
+	
+
+/*
+  CSS|conic-gradient() Function
+->The conic-gradient() function is an inbuilt function in CSS which is used to set a conic gradient as the background image. The conic gradient angle starts from 0 degrees – 360 degrees. Conic are circular and use the center of the element as the source point for color stop.
+->syntax:background-image:conic-gradient(color,degree,color degree 
+->margin means sepearate the pixel and 
+background-image: conic-gradient(from 45deg,red,yellow,green);
+*/

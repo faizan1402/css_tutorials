@@ -1,0 +1,45 @@
+/*
+ background-image:
+
+->linear-gradient;repeating-linear-gradient;radial-gradient;repeating-radial-gradient;
+->linear-gradient to top ,to bottom,to left,to right
+->background-image: linear-gradient(to top,red,yellow);
+->background-image: linear-gradient(90deg,red,yellow);
+->background-image:linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+->linear-gradient (degree accroding select value)
+->linear-gradient(.5 alpha scale means 50% tranparent 0 means 100% trasnparent)
+->linear-gradient(to right,rgba(255,0,0,1),rgba(255,0,0,.5));
+->background-image:radial-gradient(closest-side/farthest-side at 30% 40% red,yellow,green);
+->closest-corner/farthest-corner
+
+*/
+
+body{
+	background-image:url("background_images/star.jpeg");
+	background-size: cover;
+
+}
+
+.box{
+	width:800px;
+	height:500px;
+	margin:100px auto 0px auto;
+	border:10px solid #fff;
+	overflow: auto;
+	background-image:linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+	
+    
+}
+	
+h1,p{
+	margin:150px 150px 0px 150px;
+	float:left;
+	font-family: tahome;
+}
+
+h1{
+	font-size: 70px;
+}
+p{
+	font-size:30px;
+}

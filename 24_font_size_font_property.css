@@ -1,0 +1,115 @@
+
+/*
+->Font size :
+with the font size property.we can reduce or increase the font size for
+any html element in our website.
+->some units and some values are used to contro the size of the fonts.
+->font-size:16px;
+->font-size:2em;
+->font-size:200%;
+->Font size 
+xx-small=9px
+x-small=10px
+small=13.3px
+smaller=14px
+medium=16px
+large=18px
+larger=9px
+x-large=24px
+xx-large=32px
+
+*/
+
+*{margin: 0;padding:0;
+}
+body{
+	font-size: 16px;
+}
+.wrapper{
+	margin: 0px auto;
+	width:900px;
+}
+.main{
+	width: 900px;
+	float:left;
+	border-bottom: 20px solid #555;
+	padding-bottom: 10px;
+}
+img{
+	width:800px;
+	margin:5px 0px;
+	padding:5px 0px;
+	border-top:2px solid #555;
+} 
+p.first{
+	width:880px;
+	text-align: center;
+	background-color: #555;
+	color:#fff;
+	float:left;
+	padding:10px;
+	font-size: 50px; /*400% sor 4em*/
+}
+p.second{
+	width:600px;
+	float:left;
+	color:#555;
+}
+p.read
+{
+  text-align: right;
+  width:550px;
+  float:left;
+  color:red;
+  font-size:75%;
+}
+p.third{
+	width:600px;
+	margin-top:10px;
+	float:left;
+	color:#555;
+
+}
+.form{
+	width:200px;
+	background-color:#444;
+	padding: 20px;
+	float:right;
+	color: #fff; 
+}
+
+input[type=text],select,textarea{
+	width:100%;
+	padding:none;
+	border:none;
+	box-sizing:border-box;
+	margin-top:4px;
+	margin-bottom:14px;
+
+}
+
+textarea{
+	height:80px;
+}
+input[type=submit]{
+	background-color: #fff;
+	color:#0275a1;
+	font-weight: bold;
+	padding:8px 20px;
+	border:none;
+	cursor:pointer;
+}
+.form p{
+	text-align:center;
+	margin-bottom:10px;
+	font-size:200%;
+}
+
+p.second span{
+	color:#000;
+	font-size:200%;
+}
+p.third span{
+	color:#000;
+	font-size:200%;
+}

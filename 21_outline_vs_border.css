@@ -1,0 +1,35 @@
+/*
+   Outline VS Border
+ -> Outline elements are not of dimensions.how ever,
+ they are part of the border element.
+->Outline has no effect on element size.however,border affects the element size.
+->Outline we can set the outline from offset to inside or outside of any element.
+
+*/
+
+*{
+	margin:0;
+	padding:0;
+}
+.wrapper{
+	margin:50px auto 0px auto;
+	width:800px;
+}
+.main{
+	width:800px;
+	float:left;
+}
+img{
+	width:200px;
+	float:left;
+}
+article{
+	width:180px;
+	height:180px;
+	float:left;
+	padding:10px;
+}
+.a2{
+	outline: 4px solid red;
+	outline-offset: 4px;
+}

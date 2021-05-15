@@ -1,0 +1,30 @@
+/*
+background-clip
+padding-box;border-box;content-box;
+padding-box started padding box and leave the boder-box
+->content-box basically starting content to background color
+*/
+
+.box{
+	width:640px;
+	height:400px;
+	margin:50px;
+	color:#f00;
+	border:40px dotted #f00;
+	padding:40px;
+	background-color:#ff0;
+	/*
+	backgroun-clip:border-box no changes but padding-box leave the background box;
+	background-clip: border-box;
+    */
+    background-clip: padding-box;
+}
+.box p{
+	margin:20px 0px 0px 0px;
+	float:left;
+	font-family: tahoma;
+}
+.box h1{
+	font size 55px;
+	font-family: tahoma;
+}

@@ -1,0 +1,14 @@
+/*
+ css box mode ->In the world of www(world wide web),it is belived that each Html element is a box.and each element means box
+ and each element box has its own different properties.
+ box model is designed in css to understand these properties.and box model plays an 
+ important role in web designing.
+-> 1) Content:Content in the box model is the part that is defined by the element.
+Content includes text,media etc.it is in the center of the box model.content is a visible part in the box model.which is always visible
+to the users provided it is not hidden.
+->2)Padding:Padding the blank space around the content is called padding.padding shows outside the content and inside the border.
+padding in between border and content is show.
+->3)Border->Border declare is done around the element content and padding.
+border shows around padding and inside margin.
+->Margin->Browser window and middle of the border is  called margin
+ */

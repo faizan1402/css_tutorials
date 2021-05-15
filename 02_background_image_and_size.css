@@ -1,0 +1,17 @@
+body
+{
+	background-image: 
+		url("background_images/02_image.jpg"),
+		url("background_images/03_image.jpg"),
+		url("background_images/04_image.jpg");
+	background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: 300px 800px;
+	background-position: 0px 0px,300px 0px,600px 0px;
+}
+	/*
+	background-repeat:repeat,repeat-x,repeat-y means different types of image showing and repeation;
+    background-size: cover; (cover attribute all images cover)
+    background-size: 300px 300px; (width,height repeating)
+   	background-size: 460px;
+   	
+   */

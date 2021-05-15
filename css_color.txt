@@ -1,0 +1,30 @@
+
+  Properties of color :
+{
+	color:rgba(255,0,0,0.5);(red,green,blue,alpha)
+	color: rgb(255,0,0);
+	background : # 00ff00;(hexadecimal color ->00 red,ff->green color,00-> blue)
+	border:2px solid blue;
+	0 to 9 is degit then a to f hexadecimal color print
+	color:rgb(255,0,0) maximum color red
+	color:rgb(0,255,0) maximum color green
+	color:rgb(0,0,255) maximum color blue
+	color:rgb(255,0,0,.2);
+
+}
+the css background property is used to set the background in a webpage.
+
+the background is defined in the body element. which applies to our entire webpage.if we want,we can also set the background for any particular html element like h1,p,div,article etc.
+
+Background Properties :
+
+Background-color
+Background-image
+Background-position
+Background-repeat
+Background-size
+Background-origin
+Background-clip
+Background-attachment
+Background-blend-mode
+

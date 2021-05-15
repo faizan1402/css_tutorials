@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*
+->why are *{ basically remove the margin and padding so used the *{
+CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size: 25px;
+	
+	
+}
+.wrapper{ /*means shifting image center side */
+	width:600px;
+	margin: 50px auto;/*margin top bottom 50 px and left,right auto*/
+
+}
+.main
+{
+  width:100%;
+  float:left;
+  border:2px solid gray;
+}
+.main img{
+	width: 550px;
+	float:left;/* means real pixel carry left side*/ 
+	margin:25px 25px 0px 25px;
+}
+.main h1{
+	text-align: center;
+	margin-top: 25px;
+
+}
+
+article
+{
+	margin:25px;/* so means top,bottom,right,left*/
+	width:550px;
+	float:left;
+	
+	/*
+	margin-top:100px;
+	margin-right:50px;
+	margin-left: 75px;
+	margin-right: 25px;
+	*/
+	
+}

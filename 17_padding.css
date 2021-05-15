@@ -1,0 +1,50 @@
+/*
+ margin outer area inlarge
+->padding inside area less size
+->whenever give gap inside side then use padding
+and outerside gap then using margin.
+->margin outer side border to margin means outer side to inner side
+and gap outer side of border
+->padding is gap to inner border side.
+
+
+ */
+
+ @charset "utf-8";
+/*
+->why are *{ basically remove the margin and padding so used the *{
+CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size: 25px;}
+
+.main
+{
+  width:500px;
+  margin:50px auto;
+  border: 5px solid gray;
+  /* so padding is not good always used because padding disturbence our frame layout
+  and padding increases the inside gap*/
+  padding: 15px;
+}
+.main img{
+	width:430px;
+	border:5px solid red;
+	margin:25px;
+	padding: 5px;
+	border-radius:20px;
+}
+
+article
+{
+	border:5px solid green;
+	margin: 10px;
+	padding: 10px;
+	border-radius:20px;
+		
+}
+
+

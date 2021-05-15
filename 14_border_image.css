@@ -1,0 +1,41 @@
+/*
+-> border-image:
+->border-image-slice:
+->border-image-width:,border-image-outset,border-image-repeat
+->slice attribute basically each corner side pixel equal
+->border-image-repeat-stretch
+->border-image-repeat-space (basically some pixel is gap) 
+->border-imgage-width
+
+->border image generator very important website for border image
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-slice
+
+*/
+
+.box
+{
+	margin:50px auto;
+	padding:20px;
+	width:240px;
+	border:30px solid;
+	background-color: pink;
+	/* so border-image together all attributes together
+
+	border-image: url("background_images/frame2.jfif") 60 / 25px /5px round;
+     
+	border-image:url(background_images)/30(slice) /25px(width) / 5px (outset) round;
+	*/
+
+/*
+	border-image-source:url("background_images/album_design.jpg");
+	*/
+
+	border-image-source: url("background_images/album_design.jpg");
+	border-image-slice:40;
+	
+     
+
+	
+
+}

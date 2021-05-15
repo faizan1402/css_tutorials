@@ -1,0 +1,18 @@
+body{
+	font-size: 24px;}
+
+.main{
+	border:5px solid green;
+	width:900px;
+	margin:50px auto 0px auto;}/*top 25px,bottom auto 0px left and auto right side
+
+
+.main article{
+	/*according to content width are changes */
+	width:430px;
+	padding: 10px;/*so padding strech pixel outer side*/
+    float:left;}
+.main img{
+	/* when suppose you are not give margin ,padding then width 100%*/
+	width:50%;/*50% image of width*/
+    float: left;}

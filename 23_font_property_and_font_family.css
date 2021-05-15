@@ -1,0 +1,81 @@
+/* 
+
+1)We can customize the look of the font with the css font
+property.
+2)How will the font look or its visual apperance,we can handle
+all this from the css font property..
+
+->Font Family:
+->This property is used to declare the font family for any HTML element.
+->Generic Family:
+->This font family consists of groups of similar looking font families.
+  Example :arial,verdena,helvetica
+->Font Family
+->It takes only one particular font family.
+example-arial or "Times New Roman"
+
+ ->font-family: arial;
+
+ ->font-family: Gotham,"Helvetica Neue",
+	Helvetica,Arial,"sans-serif";
+
+*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.wrapper
+{
+	margin:100px auto 0px auto;
+	width:800px;
+}
+.main{
+	width:800px;
+	float:left;
+	outline:1px solid gray;
+}
+body{
+   
+h1{
+	font-size: 50px;
+	color:red;
+	text-align: center;
+	font-family: Cambria,"Hoefler Text","Liberation Serif",Times,"Times New Roman","serif"; 
+
+/*when one or more than font then known as group of font family or generic font family.*/
+}
+p.first{
+	font-size:10px;
+	text-align: justify;
+	margin-top:25px;
+}
+.main img
+{
+	
+	float:left;
+
+}
+article{
+	width:580px;
+	float:left;
+	padding: 10px;
+}
+p.second{
+	color:red;
+	padding: 10px;
+	letter-spacing: 5px;
+	text-align:right;
+}
+
+h2
+{
+  color:red;
+  letter-spacing: 3px;
+  text-align:right;
+}
+
+
+

@@ -1,0 +1,45 @@
+/*How to link style color changes
+->when first time click on link
+->a:link{
+	color:green;
+}
+->when first time link is click so is known as visited link
+->and visited link of color is purple by default color but you are changes the color css through
+->a:visited{
+    color:red;
+}
+->when on mouse click simultaniously then is known as hover
+->a:hover{
+color:blue;
+}
+->when currently click on link then is known as active link
+->active color is red color means before clicking link and color is red and on next page 
+->a:active{
+color:yellow;
+}
+*/
+body{
+	font-family: tahoma;
+	font-size: 40px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	background-color:rgba(255,0,0,.5);
+	padding: 10px 20px;
+}
+
+a:link{
+	color:green;
+}
+a:visited{
+	color:red;
+}
+a:hover{
+	color:white;
+	background-color: red;
+}
+
+a:active{
+   color:yellow;
+}

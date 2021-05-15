@@ -1,0 +1,44 @@
+
+
+/*
+ ->value dashed
+ ->groove->make 3d border
+ ->ridge->make 3d border but irect 
+ ->inset->border means inside push border
+ ->outside->border means outerside push border
+ ->solid->complete color
+->double->double line draw
+
+ */
+
+.box{
+	width:550px;
+	margin:200px auto 0px auto;
+
+/*
+	border-style:solid;
+	border width also changes different type of pixel sketch and border width
+	5px 10px means->top bottom 5px and left and right 10 px
+
+	border-width:5px 10px 15px 20px;
+	*/
+     
+}
+.box h1,p{
+	margin:20px;
+
+	padding:10px 0px;
+
+}
+ .box h1{
+ 	border-left:10px solid green;
+ 	border-right:10px solid green;
+ 	padding: 0px 0px 0px 20px;
+
+ }
+ .box p{
+ 	border-left: 10px solid green;
+ 	border-right:10px solid green;
+ 	padding: 0px 0px 0px 20px;
+
+ }

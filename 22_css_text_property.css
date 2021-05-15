@@ -1,0 +1,31 @@
+/*
+ CSS Text Property :
+
+1-We can customisze the look of the text with the css text property.
+2-How will the text look or its visula apperance,we can handle all this from the css text property.
+
+1) Color Property------
+2)letter-spacing------
+3)word-spacing-------
+4)text-indent--------
+5)text-align---------
+6)text-decoration----
+7)text-shadow--------
+
+*/
+ h1,p,{
+ /*so word spacing basically in between the space of text
+ text-indent basically forward side 20 px
+ ->text-align means equal distance suppose text-align-right/left/center 
+ ->text-decoration->basically with text added the line
+ text-decoration:none->no line /text-decoration:underline->below line showing/overline->above side showing line
+ text-decoration:line-through->cut the text;
+ ->text-transform:lowercase->all words are small letter,/uppercase->all letter are capital letter
+ /capitialise->then only starting letter is capital letter
+->text-shadow: different pixel;
+ */ 
+
+ 	word-spacing: 20px;
+ 	text-indent: 20px
+ 	text-align:right;
+ }

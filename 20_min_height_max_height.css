@@ -1,0 +1,41 @@
+/*
+height is content of the height
+->The height of an element does not  include padding,borders,or margins!
+->height->padding,margin,border,not include
+->By default the height of an element is auto set which is set by the browser.Because height is also not fixed
+for most elements.
+->The height of the element is determined by this dimension property.you can define a value in px,cm,pt or %.
+
+*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:24px;
+}
+.main{
+	margin:50px auto 0px auto;
+	width:600px;
+}
+.main img{
+	width:600px;
+}
+.main article{
+	width:550px;
+	border:5px solid red;
+	margin:20px 0px 0px 0px;
+	padding:20px;
+}
+.main article{
+	width:550px;
+	border:5px solid red;
+	margin:20px 0px 0px 0px 0px;
+	padding:20px;
+	min-height: 150px;
+	max-height: 300px;
+  /*150 min and 300 max pixel is lie  */
+   overflow: auto;/*so overflow all text inside box added */
+}
