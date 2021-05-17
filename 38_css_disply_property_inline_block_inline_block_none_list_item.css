@@ -1,0 +1,59 @@
+/*
+->css display
+->Block Elements (go to next line)
+->Inline Elements(same paragraph or sameline)
+->Display Properties
+->values
+->none ,inline block,list-item,initial,inherit,content
+flex,grid,inline-flex,inline-grid,inline-table,run-in,table,table-caption,lumn-group
+,table-coloumn-group,table-header-group,table-footer-group,table-row-group,table-cell
+,table-column,table-row.
+
+*/
+
+*{
+	margin: 0;padding: 0;
+}
+body{
+	font-family: tahoma;
+	font-size: 32px;
+	padding: 100px 40px 0px 40px;
+}
+h1{
+	margin-bottom: 30px;}
+p{
+	margin-top: 10px;
+    display: inline; /*means same paragraph */
+
+}
+span{
+	display: black;
+}
+p.one{
+	background-color: #ffdd00;
+}
+p.one span
+{
+	background-color: red;
+	/*make display inline element to block element
+	*/
+    display:list-item;
+    display:inherit;
+
+
+   /*
+   display inline block-> Means not make block or not different line but inline block element
+
+   */
+}
+
+p.two{
+	background-color: #ffff00;
+}
+
+/*behavior paragraph to block and inline behaviour span
+  
+  */
+
+
+

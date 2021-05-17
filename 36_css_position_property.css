@@ -1,0 +1,33 @@
+/*
+position:relative; then left direction to forward side
+->position:static; then no changes same position
+->position:absolute; working on position:relative depend on size of container
+
+
+*/
+
+
+body{
+	font-family: tahoma;
+	font-size: 24px;
+}
+
+div.box 
+{
+ border: 5px solid red;
+ width: 600px;
+ height: 600px;
+ overflow: scroll;
+ position: relative;
+ left: 100px;
+ top: 100px;
+}
+
+div.box img{
+	position: fixed;/* means fixed the image */
+   /*so fixed positon when using img then imge is fixe and text is moving
+   */   
+   left:350px;
+   top: 450px;
+   width:200px;
+}

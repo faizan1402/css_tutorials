@@ -1,0 +1,15 @@
+/*
+css selectors category:
+->simple selectors
+->combinator selectors
+->attribute selectors
+->pseudo-class selectors
+->pseudo-elements
+
+1)simple selectors ->element selector,id selector,class selector,universal selector,universal selector,grouping selector
+
+universal selector-> *{ all html is margin and padding '0'}
+
+
+2)Combinator selector :descendant selector (space),child selector(>),adjacent sibling selector (+),general sibling (~)
+*/

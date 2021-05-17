@@ -1,0 +1,38 @@
+/*
+Float Values
+
+Left     Right
+
+*/
+body{
+	font-family: tahoma;
+}
+
+div{
+	outline: 2px solid red;
+	float: left;
+}
+
+/*
+.ione,.itwo,.ithree,.ifour{
+	width: 210px;
+	height: 200px;
+}
+*/
+.ione{
+	width:250px;
+	height:200px;
+}
+.itwo{
+	width:400px
+	height:200px;
+}
+
+.ithree{
+	width:690px;
+	height: 300px;
+}
+.ifour{
+	width:200px;
+	height:200px;
+}

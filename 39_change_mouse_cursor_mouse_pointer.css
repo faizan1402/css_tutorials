@@ -1,0 +1,39 @@
+/*
+  change mouse coursor 
+
+ cursor:alias;
+ context-menu
+ default,ne-resize,nwe-resize,pointer,se-resize,w-resize,all-scroll,col-resize,e-resize,help,nesw-resize,no-drop,progress
+ ,sw-resize,wait,auto,copy,ew-resize,movie,ns-resize,none,row-resize,text,zoom-in
+
+ */
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body{
+
+
+ 	text-align: center;
+ }
+
+
+div{
+	width:43%;
+	float: left;
+	height: 200px;
+	margin:20px;
+	border: 2px solid #ccc;
+}
+div.one{
+	border:3px solid red;
+	cursor: no-drop;/*means no write this box or division*/
+}
+div.two{
+	border:3px solid green;
+	cursor: wait;
+}
+div.three{
+	border:3px solid blue;
+	cursor: url(background_images/girl.jpg),pointer;
+}

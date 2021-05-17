@@ -1,0 +1,36 @@
+/*
+According to the model css box model every html element is a box.
+
+*/
+
+body{
+	font-family: tahoma;
+	font-size: 18px;
+	padding-top: 20px;
+}
+h1{
+	text-align: center;
+}
+div.box{
+	width: 100%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+div.card{
+	width: 250px;
+	text-align:center;
+	margin-top: 20px;
+	border: 2px solid gray;
+/*box-shadow used box-shadow:5px(horizontal) 0 (vertical) 0 (blur) 0(spread)*/
+     box-shadow: :5px 0 0 0 rgba(0,0,,.2),0
+     4px 16px 0 rgba(0,0,0,.2);
+}
+div.card img{
+	width: 100%;
+
+}
+div.text{
+	padding: 10px;
+	background-color: #fff;
+}

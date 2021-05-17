@@ -1,0 +1,21 @@
+/*
+Visibility Property in css :
+->Visibility Vs Display Property
+->visibility:visible-> means same property no changes paragraph
+->visibility:hidden->means hidden the paragraph and same whitespaces but embedded spaces
+and layout same 
+->visibility:collapse->means same working but this is only  in table formation
+->
+*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.one{
+	/*visibility:hidden;basically paragraph one is hide and layout is same
+	*/
+	visibility: visible;
+	color:green;
+}
+

@@ -1,0 +1,38 @@
+/*
+visible;
+hidden;
+scroll;
+auto;
+overflow scroll means scroll x axis and y axis
+overflow hidden means all text outerside shifting towards inside text.
+overflow visible means outer border text inner border text both are spread text.
+overflow auto means auto balance pixel 
+->overflow :x-direction; means only x direction scrolling is possible
+->overflow:y-direction; means only y direction scrolling is possible
+
+*/
+
+body{
+	font-family: tahoma;
+}
+div{
+	float: left;
+	margin:25px;
+}
+div.text{
+	width:300px;
+	height: 300px;
+	border: 10px solid red;
+	overflow: hidden;/*so all text outside range showing inside range */
+}
+div.photo{
+	width: 300px;
+	height: 300px;
+	border: 10px solid red;
+	overflow: hidden;
+}
+
+div.photo img{
+	opacity: .8;/*when opacity pixel decrease then image is not visible */
+	width:350px;
+}
